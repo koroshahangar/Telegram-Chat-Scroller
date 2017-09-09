@@ -1,0 +1,34 @@
+<html>
+<head>
+  <script src="popup.js"></script>
+  <style media="screen">
+  /*body {
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background: white;
+  }*/
+  body {
+    width: 20em
+  }
+  .btn {
+    display: inline-block;
+    background: rgb(220,220,220);
+    padding: .5em;
+    margin-top: 1em
+  }
+  .btn:hover {
+    cursor: pointer;
+  }
+  .btn[state="active"] {
+    opacity: .5;
+  }
+  </style>
+</head>
+<body>
+  <div>Press stop to pause scrolling.</div>
+  <div class="btn" id="btn-scroll-up">Scroll Up</div>
+  <div class="btn" id="btn-scroll-down">Scroll Down</div>
+  <div class="btn" id="btn-stop-scrolling">Stop</div>
+</body>
+</html>
